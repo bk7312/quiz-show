@@ -1,0 +1,30 @@
+
+
+.game-container {
+    margin: 0 1em;
+}
+
+.options-container {
+    display: flex;
+    gap: 1em;
+    margin: 0 auto;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.option-btn {
+    padding: 1em;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: aqua;
+}
+
+.disabled, .option-btn.disabled:hover  {
+    background-color: lightgray;
+    cursor: not-allowed;
+}

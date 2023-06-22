@@ -1,0 +1,28 @@
+
+
+.title, .attribute {
+    margin: 0;
+}
+
+.attribute {
+    font-size: small;
+}
+
+
+.rules {
+    margin: 1em;
+    text-align: left;
+    padding: 0.5em 2em;
+}
+
+.rules > p {
+    margin: 0.1rem;
+}
+
+.category {
+    width: 300px;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    display: block;
+    margin: 1em auto;
+}

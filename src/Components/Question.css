@@ -1,0 +1,35 @@
+
+.question-container {
+    padding: 1em;
+}
+
+.question {
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 0;
+}
+
+.choice-container {
+    display: grid;
+    gap: 1em;
+}
+
+.choice {
+    font-size: 1rem;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: aqua;
+}
+
+
+@media (min-width: 600px) {
+    .choice-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
